@@ -3,22 +3,27 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="lg:py-16" id="home">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center sm:text-left">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="col-span-7 place-self-center text-center sm:text-left"
+        >
           <h1 className="text-white mb-4 text-3xl sm:text-5xl lg:text-5xl font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-300">
               Hello, I`m{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed out once, initially
                 "Jake",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                1000,
                 "a Web Developer",
                 1000,
                 "a Software Engineer",
@@ -45,8 +50,13 @@ const HeroSection = () => {
               </span>
             </button>
           </div>
-        </div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="col-span-5 place-self-center mt-4 lg:mt-0"
+        >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400] lg:h-[400] relative flex items-center justify-center overflow-hidden">
             <Image
               className="absolute"
@@ -56,7 +66,7 @@ const HeroSection = () => {
               height={300}
             />
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

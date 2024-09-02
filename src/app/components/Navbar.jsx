@@ -1,22 +1,21 @@
 "use client";
-import Link from "next/link";
+//import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import { Link } from "react-scroll";
 
 const navLinks = [
   {
     title: "About",
     path: "#about",
+    to: "about",
   },
   {
     title: "Projects",
     path: "#projects",
-  },
-  {
-    title: "Contact",
-    path: "#contact",
+    to: "projects",
   },
 ];
 
@@ -27,8 +26,11 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
-          href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          to="home"
+          smooth={true}
+          duration={500}
+          offset={-150}
+          className="text-2xl md:text-5xl text-white font-semibold hover:cursor-pointer"
         >
           LOGO
         </Link>
@@ -53,7 +55,7 @@ const Navbar = () => {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-10">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLink href={link.path} title={link.title} />
+                <NavLink href={link.path} title={link.title} to={link.to} />
               </li>
             ))}
           </ul>
