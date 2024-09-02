@@ -32,7 +32,9 @@ const Navbar = () => {
           offset={-150}
           className="text-2xl md:text-5xl text-white font-semibold hover:cursor-pointer"
         >
-          LOGO
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 via-opacity-60 to-pink-500">
+            J.D.
+          </span>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
@@ -51,7 +53,7 @@ const Navbar = () => {
             </button>
           )}
         </div>
-        <div className="menu hidden md:block md:w-auto" id="navbar">
+        <div className="menu hidden md:block md:w-auto mr-8" id="navbar">
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-10">
             {navLinks.map((link, index) => (
               <li key={index}>

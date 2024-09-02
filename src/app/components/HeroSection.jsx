@@ -35,14 +35,13 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] mb-6 text-base sm:text-lg lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
-            cumque, reprehenderit esse voluptatum ipsa repellat minima quas
-            architecto cupiditate dicta magni nisi? Dicta debitis at adipisci
-            unde hic voluptate suscipit.
+            Aspiring Software Engineer & Web Developer.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
-              Contact Me
+              <a href="https://www.linkedin.com/in/jakedusing/" target="_blank">
+                Connect with Me
+              </a>
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">

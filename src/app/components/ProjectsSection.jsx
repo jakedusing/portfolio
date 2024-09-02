@@ -8,11 +8,12 @@ const projectsData = [
   {
     id: 1,
     title: "YelpCamp",
-    description: "A campground review website",
+    description:
+      "Full-stack web application for posting and reviewing campgrounds",
     image: "/images/projects/yelpcamp.JPG",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://yelpcamp-noir.onrender.com/",
   },
   {
     id: 2,
@@ -20,26 +21,27 @@ const projectsData = [
     description: "Package manager for Javascript.  Search and view packages.",
     image: "/images/projects/registry.JPG",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/jakedusing/registry",
+    previewUrl: "https://npmregistry.netlify.app/",
   },
   {
     id: 3,
     title: "Blaster",
-    description: "Online multiplayer shooter game",
+    description:
+      "Online multiplayer shooter game made with C++ in Unreal Engine",
     image: "/images/projects/blaster.JPG",
     tag: ["All", "Games"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/jakedusing/blaster",
+    previewUrl: "https://jakedusing.itch.io/blaster",
   },
   {
     id: 4,
     title: "Kitchen Chaos",
-    description: "Kitchen assembly game",
+    description: "Kitchen assembly game made with C# in Unity",
     image: "/images/projects/kitchenchaos.JPG",
     tag: ["All", "Games"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/jakedusing/KitchenChaos",
+    previewUrl: "https://jakedusing.itch.io/kitchen-chaos",
   },
 ];
 
