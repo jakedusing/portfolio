@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Breath of the Wild Compendium",
+    description: "A compendium to learn all about Breath of the Wild",
+    image: "/images/projects/botw.JPG",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/jakedusing/BOTW-Compendium",
+    previewUrl: "https://zeldabotwcompendium.netlify.app/",
+  },
+  {
+    id: 2,
     title: "YelpCamp",
     description:
       "Full-stack web application for posting and reviewing campgrounds",
@@ -16,7 +25,7 @@ const projectsData = [
     previewUrl: "https://yelpcamp-noir.onrender.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "NPM Registry",
     description: "Package manager for Javascript.  Search and view packages.",
     image: "/images/projects/registry.JPG",
@@ -25,7 +34,7 @@ const projectsData = [
     previewUrl: "https://npmregistry.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Blaster",
     description:
       "Online multiplayer shooter game made with C++ in Unreal Engine",
@@ -35,7 +44,7 @@ const projectsData = [
     previewUrl: "https://jakedusing.itch.io/blaster",
   },
   {
-    id: 4,
+    id: 5,
     title: "Kitchen Chaos",
     description: "Kitchen assembly game made with C# in Unity",
     image: "/images/projects/kitchenchaos.JPG",
