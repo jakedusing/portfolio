@@ -24,7 +24,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Governors State University</li>
+        <li>Bachelors in Computer Science - Governors State University</li>
         <li>The Modern Javascript Bootcamp - Udemy</li>
         <li>The Web Developer Bootcamp - Udemy</li>
       </ul>
