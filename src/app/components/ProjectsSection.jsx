@@ -35,6 +35,15 @@ const projectsData = [
   },
   {
     id: 4,
+    title: "McCormick's Flooring",
+    description: "Web application for a flooring contactor",
+    image: "/images/projects/flooring.JPG",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/jakedusing/McCormicksFlooring",
+    previewUrl: "https://mccormicksflooring.netlify.app/",
+  },
+  {
+    id: 5,
     title: "Blaster",
     description:
       "Online multiplayer shooter game made with C++ in Unreal Engine",
@@ -44,7 +53,7 @@ const projectsData = [
     previewUrl: "https://jakedusing.itch.io/blaster",
   },
   {
-    id: 5,
+    id: 6,
     title: "Kitchen Chaos",
     description: "Kitchen assembly game made with C# in Unity",
     image: "/images/projects/kitchenchaos.JPG",
