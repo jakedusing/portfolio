@@ -16,13 +16,13 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "YelpCamp",
+    title: "BookClub",
     description:
-      "Full-stack web application for posting and reviewing campgrounds",
-    image: "/images/projects/yelpcamp.JPG",
+      "Full-stack web application for posting and reviewing books.  Built with JavaScript, Node, Express, MongoDB",
+    image: "/images/projects/bookclub.JPG",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "https://yelpcamp-noir.onrender.com/",
+    gitUrl: "https://github.com/jakedusing/BookClub",
+    previewUrl: "https://book-club-alpha.vercel.app/",
   },
   {
     id: 3,
