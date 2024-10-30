@@ -18,7 +18,7 @@ const projectsData = [
     id: 2,
     title: "BookClub",
     description:
-      "Full-stack web application for posting and reviewing books.  Built with JavaScript, Node, Express, MongoDB",
+      "Full-stack web application for posting and reviewing books.  Built with JavaScript, Node, Express, and MongoDB.",
     image: "/images/projects/bookclub.JPG",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/jakedusing/BookClub",
