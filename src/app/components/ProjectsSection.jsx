@@ -19,7 +19,7 @@ const projectsData = [
     id: 2,
     title: "Pokemon Guesser",
     description:
-      "Web app built with HTML, CSS, and JavaScript where users guess the names of random Pokemon based on their images.  Uses the Poki API",
+      "Web app built with HTML, CSS, and JavaScript where users guess the names of random Pokemon based on their images.  Uses the Poki API.",
     image: "/images/projects/pokemonguesser.JPG",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/jakedusing/PokemonGuesser",
