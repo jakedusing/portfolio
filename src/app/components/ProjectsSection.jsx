@@ -7,15 +7,6 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Breath of the Wild Compendium",
-    description: "A compendium to learn all about Breath of the Wild",
-    image: "/images/projects/botw.JPG",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/jakedusing/BOTW-Compendium",
-    previewUrl: "https://zeldabotwcompendium.netlify.app/",
-  },
-  {
-    id: 2,
     title: "BookClub",
     description:
       "Full-stack web application for posting and reviewing books.  Built with JavaScript, Node, Express, and MongoDB.",
@@ -25,7 +16,26 @@ const projectsData = [
     previewUrl: "https://book-club-alpha.vercel.app/",
   },
   {
+    id: 2,
+    title: "Pokemon Guesser",
+    description:
+      "Web app built with HTML, CSS, and JavaScript where users guess the names of random Pokemon based on their images.  Uses the Poki API",
+    image: "/images/projects/pokemonguesser.JPG",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/jakedusing/PokemonGuesser",
+    previewUrl: "https://jd-pokemon-guesser.netlify.app/",
+  },
+  {
     id: 3,
+    title: "Breath of the Wild Compendium",
+    description: "A compendium to learn all about Breath of the Wild",
+    image: "/images/projects/botw.JPG",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/jakedusing/BOTW-Compendium",
+    previewUrl: "https://zeldabotwcompendium.netlify.app/",
+  },
+  {
+    id: 4,
     title: "NPM Registry",
     description: "Package manager for Javascript.  Search and view packages.",
     image: "/images/projects/registry.JPG",
@@ -34,7 +44,7 @@ const projectsData = [
     previewUrl: "https://npmregistry.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "McCormick's Flooring",
     description: "Web application for a flooring contactor",
     image: "/images/projects/flooring.JPG",
@@ -43,7 +53,7 @@ const projectsData = [
     previewUrl: "https://mccormicksflooring.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Blaster",
     description:
       "Online multiplayer shooter game made with C++ in Unreal Engine",
@@ -53,7 +63,7 @@ const projectsData = [
     previewUrl: "https://jakedusing.itch.io/blaster",
   },
   {
-    id: 6,
+    id: 7,
     title: "Kitchen Chaos",
     description: "Kitchen assembly game made with C# in Unity",
     image: "/images/projects/kitchenchaos.JPG",
