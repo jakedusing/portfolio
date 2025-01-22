@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-3xl sm:text-5xl lg:text-5xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-300">
-              Hello, I&#39;m{" "}
+              Hello, I`m{" "}
             </span>
             <br></br>
             <TypeAnimation
