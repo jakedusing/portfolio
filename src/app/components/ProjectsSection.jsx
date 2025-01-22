@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "BookClub",
     description:
-      "Full-stack web application for posting and reviewing books.  Built with JavaScript, Node, Express, and MongoDB.",
+      "A web application built with JavaScript, Node.js, Express, and MongoDB that enables users to connect and share their passion for books. This app allows users to sign up and sign in, upload their favorite books, add reviews, and search for books across the platform. Users can also view profiles of other members to discover the books they’ve uploaded and read.",
     image: "/images/projects/bookclub.JPG",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/jakedusing/BookClub",
@@ -17,6 +17,16 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "Todo App",
+    description:
+      "A web-based platform designed for person and group task management along with real-time chat. Built with Node.js, Express, MongoDB, and Socket.IO. Includes User Authentication, Task Management, Group Collaboration, Real-time Chat, and Mobile-Responsive design.",
+    image: "/images/projects/todo.JPG",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/jakedusing/todo-app",
+    previewUrl: "https://todo-app-roan-ten.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Pokemon Guesser",
     description:
       "Web app built with HTML, CSS, and JavaScript where users guess the names of random Pokemon based on their images.  Uses the Poki API.",
@@ -26,7 +36,7 @@ const projectsData = [
     previewUrl: "https://jd-pokemon-guesser.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Breath of the Wild Compendium",
     description: "A compendium to learn all about Breath of the Wild",
     image: "/images/projects/botw.JPG",
@@ -35,22 +45,13 @@ const projectsData = [
     previewUrl: "https://zeldabotwcompendium.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "NPM Registry",
     description: "Package manager for Javascript.  Search and view packages.",
     image: "/images/projects/registry.JPG",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/jakedusing/registry",
     previewUrl: "https://npmregistry.netlify.app/",
-  },
-  {
-    id: 5,
-    title: "McCormick's Flooring",
-    description: "Web application for a flooring contactor",
-    image: "/images/projects/flooring.JPG",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/jakedusing/McCormicksFlooring",
-    previewUrl: "https://mccormicksflooring.netlify.app/",
   },
   {
     id: 6,

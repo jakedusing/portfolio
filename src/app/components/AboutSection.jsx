@@ -9,10 +9,11 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>React</li>
+        <li>Java</li>
         <li>Javascript</li>
         <li>Node.js</li>
-        <li>Tailwind CSS</li>
+        <li>SQL/NoSQL</li>
+        <li>React</li>
         <li>C#</li>
         <li>C++</li>
         <li>Git</li>
@@ -54,11 +55,13 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am passionate about development and love learning new concepts for
-            programming and knowing how anything works. I have a Bachelors
-            degree in Computer Science and spend any free time I have learning
-            new skills. I enjoy spending time practicing and learning new
-            development skills and dabbling in game development.
+            I am passionate developer with a Bachelor's degree in Computer
+            Science, driven by a love for learning and understanding how things
+            work. My free time is dedicated to exploring new skills, practicing
+            development techniques, and diving into game development. I
+            specialize in Java programming and have hands-on experience with
+            JavaScript, Node.js, and MongoDB, creating robust applications and
+            continuously expanding my expertise.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton
