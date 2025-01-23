@@ -55,7 +55,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am passionate developer with a Bachelor's degree in Computer
+            I am passionate developer with a Bachelor`&#39;`s degree in Computer
             Science, driven by a love for learning and understanding how things
             work. My free time is dedicated to exploring new skills, practicing
             development techniques, and diving into game development. I
