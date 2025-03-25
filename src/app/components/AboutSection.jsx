@@ -58,9 +58,9 @@ const AboutSection = () => {
             I am passionate developer with a Bachelor&#39;s degree in Computer
             Science, driven by a love for learning and understanding how things
             work. I&#39;ve built multiple full-stack applications and have hands
-            on experience working with Java, Spring Boot, JavaScript, React,
-            Node.js, C#, .NET, and RESTful APIs. I also have experience in Video
-            Game development with Unreal Engine and Unity.
+            on experience working with Java, Spring Boot, SQL, JavaScript,
+            React, Node.js, MongoDB, C#, .NET, and RESTful APIs. I also have
+            experience in Video Game development with Unreal Engine and Unity.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton
