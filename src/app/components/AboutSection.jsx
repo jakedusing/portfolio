@@ -57,11 +57,10 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am passionate developer with a Bachelor&#39;s degree in Computer
             Science, driven by a love for learning and understanding how things
-            work. My free time is dedicated to exploring new skills, practicing
-            development techniques, and diving into game development. I
-            specialize in Java programming and have hands-on experience with
-            JavaScript, Node.js, and MongoDB, creating robust applications and
-            continuously expanding my expertise.
+            work. I&#39;ve built multiple full-stack applications and have hands
+            on experience working with Java, Spring Boot, JavaScript, React,
+            Node.js, C#, .NET, and RESTful APIs. I also have experience in Video
+            Game development with Unreal Engine and Unity.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton
