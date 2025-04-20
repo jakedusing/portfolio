@@ -26,6 +26,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Bachelors in Computer Science - Governors State University</li>
+        <li>Unreal Engine 5 C++ Multiplayer Shooter - Udemy</li>
+        <li>Unreal Engine 5 Blueprints: First Person Shooter - Udemy</li>
         <li>The Modern Javascript Bootcamp - Udemy</li>
         <li>The Web Developer Bootcamp - Udemy</li>
       </ul>
