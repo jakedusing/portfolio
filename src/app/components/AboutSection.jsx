@@ -16,7 +16,6 @@ const TAB_DATA = [
         <li>React</li>
         <li>Node.js</li>
         <li>SQL/NoSQL</li>
-        <li>React</li>
         <li>C#</li>
         <li>C++</li>
         <li>Git</li>
