@@ -10,7 +10,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Java</li>
+        <li>Spring Boot</li>
+        <li>RESTful APIs</li>
         <li>Javascript</li>
+        <li>React</li>
         <li>Node.js</li>
         <li>SQL/NoSQL</li>
         <li>React</li>
@@ -62,7 +65,8 @@ const AboutSection = () => {
             work. I&#39;ve built multiple full-stack applications and have hands
             on experience working with Java, Spring Boot, SQL, JavaScript,
             React, Node.js, MongoDB, C#, .NET, and RESTful APIs. I also have
-            experience in Video Game development with Unreal Engine and Unity.
+            experience in Video Game development with Unreal Engine using
+            Blueprints and Unity.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton
