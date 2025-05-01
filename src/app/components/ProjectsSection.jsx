@@ -7,6 +7,16 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Video Game Store",
+    description:
+      "A mock Video Game Store POS with a Java, Spring Boot, MySQL backend and a React front end.  Users can sign in, add or look up customers, check inventory and update inventory, complete sales, and looking up sales history.",
+    image: "/",
+    tag: ["All"],
+    gitUrl: "https://github.com/jakedusing/BookClub",
+    previewUrl: "/",
+  },
+  {
+    id: 2,
     title: "BookClub",
     description:
       "A web application built with JavaScript, Node.js, Express, and MongoDB that enables users to connect and share their passion for books. This app allows users to sign up and sign in, upload their favorite books, add reviews, and search for books across the platform. Users can also view profiles of other members to discover the books they’ve uploaded and read.",
@@ -16,7 +26,7 @@ const projectsData = [
     previewUrl: "https://book-club-alpha.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Todo App",
     description:
       "A web-based platform designed for person and group task management along with real-time chat. Built with Node.js, Express, MongoDB, and Socket.IO. Includes User Authentication, Task Management, Group Collaboration, Real-time Chat, and Mobile-Responsive design.",
@@ -26,7 +36,7 @@ const projectsData = [
     previewUrl: "https://todo-app-roan-ten.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Pokemon Guesser",
     description:
       "Web app built with HTML, CSS, and JavaScript where users guess the names of random Pokemon based on their images.  Uses the Poki API.",
@@ -36,7 +46,7 @@ const projectsData = [
     previewUrl: "https://jd-pokemon-guesser.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Breath of the Wild Compendium",
     description: "A compendium to learn all about Breath of the Wild",
     image: "/images/projects/botw.JPG",
@@ -45,7 +55,7 @@ const projectsData = [
     previewUrl: "https://zeldabotwcompendium.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "NPM Registry",
     description: "Package manager for Javascript.  Search and view packages.",
     image: "/images/projects/registry.JPG",
@@ -54,7 +64,7 @@ const projectsData = [
     previewUrl: "https://npmregistry.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Blaster",
     description:
       "Online multiplayer shooter game made with C++ in Unreal Engine",
@@ -64,7 +74,7 @@ const projectsData = [
     previewUrl: "https://jakedusing.itch.io/blaster",
   },
   {
-    id: 7,
+    id: 8,
     title: "Kitchen Chaos",
     description: "Kitchen assembly game made with C# in Unity",
     image: "/images/projects/kitchenchaos.JPG",
