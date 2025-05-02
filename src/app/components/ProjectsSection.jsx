@@ -9,11 +9,11 @@ const projectsData = [
     id: 1,
     title: "Video Game Store",
     description:
-      "A mock Video Game Store POS with a Java, Spring Boot, MySQL backend and a React front end.  Users can sign in, add or look up customers, check inventory and update inventory, complete sales, and looking up sales history.",
-    image: "/images/projects.videogamestore.JPG",
+      "A mock Video Game Store Point of Sale with a Java, Spring Boot, MySQL backend and a React frontend.  Employees can sign in, add or look up customers, check inventory and update inventory, complete sales, and look up sales history.",
+    image: "/images/projects/videogamestore.JPG",
     tag: ["All"],
     gitUrl: "https://github.com/jakedusing/VideoGameStore-FrontEnd",
-    previewUrl: "/",
+    previewUrl: "/#",
   },
   {
     id: 2,
